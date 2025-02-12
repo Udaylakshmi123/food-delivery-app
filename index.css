@@ -62,3 +62,12 @@
 .search{
     margin: 10px;
 }
+.user-card{
+    width: 200px;
+    height: 200px;
+    background-color: #e2e5e454;
+    border: 1px solid #e2e5e454;
+    border-radius: 4px;
+    padding:8px;
+    margin: 10px;
+}
