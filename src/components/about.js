@@ -4,18 +4,14 @@ import React from "react";
 class AboutComponent extends React.Component {
     constructor(props){
         super(props);
-        console.log('Parent constructor')
         this.state={}
     }
     componentDidMount(){
-        console.log('parent component did mount')
       }
     render(){
-        console.log('Parent render')
     return(<div className="container">
         <h2>About page</h2>
         <User name={'Udaya'}/>
-        <UserClass name={'Praneeth'}/>
         <UserClass name={'Praneeth'}/>
     </div>)
     }

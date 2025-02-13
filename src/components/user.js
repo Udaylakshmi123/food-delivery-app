@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 
 const User = (props)=>{
     return (<div className="user-card">
