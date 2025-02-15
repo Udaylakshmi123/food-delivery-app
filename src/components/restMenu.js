@@ -1,20 +1,15 @@
 import { useEffect, useState } from "react";
-import Shimmer from "./shimmer";
+import Shimmer from "./Shimmer";
 import { useParams } from "react-router";
-
+import useRestMenu from '../utils/useRestMenu';
+import useOnlineStatus from '../utils/useOnlineStatus';
 const RestMenuComponent = () =>{
-    const [resInfo, setResInfo] = useState(null);
+    // const [resInfo, setResInfo] = useState(null);
     const {resId} = useParams();
-    console.log(resId)
-    useEffect(()=>{
-        fetchMenu();
-    },[]);
-    const fetchMenu = async()=>{
-        const data = await fetch(`https://corsproxy.io/?https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9715987&lng=77.5945627&restaurantId=${resId}&catalog_qa=undefined&query=Biryani&submitAction=ENTER`);
-        const json = await data.json();
-        console.log(json);
-        setResInfo(json.data);
-    }
+    const resInfo = useRestMenu(resId);
+    const onlineStatus = useOnlineStatus();
+    if(!onlineStatus) return <h1>Looks your Wbsite is offline</h1>
+    console.log(onlineStatus)
     if(resInfo === null) return <Shimmer />;
     const {name, cuisines,costForTwoMessage} = resInfo?.cards[2]?.card?.card?.info;
     const { itemCards } = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
