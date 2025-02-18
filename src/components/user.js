@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 const User = (props)=>{
     return (<div className="user-card">
         <h2>Name: {props.name}</h2>
