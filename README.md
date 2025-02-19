@@ -20,3 +20,12 @@
 - Different dev and prod bundle
  
 Food Ordering app -> Jai's foods
+
+
+# Redux Toolkit
+- Install libraries(react-redux, @redux/toolkit)
+- Build our Redux store
+- Connect our store to App
+- Create a Slice(cart slice)
+- Dispatch an Action
+- Read the data through Selector

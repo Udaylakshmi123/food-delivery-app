@@ -4,11 +4,14 @@ import { useState, useContext } from "react";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/userContext";
+import { useSelector } from "react-redux";
 // header component
 const HeaderComponent = () =>{
   const [btnName, setBtnName] = useState("LogIn");
   const onlineStatus = useOnlineStatus();
   const {loggedInUser} = useContext(UserContext);
+  // subscribing tto the store using selector. selector is a hook.
+  const cartItems = useSelector((store)=>store.cart.items);
     return (
     <div className="flex justify-between bg-green-50 items-center">
      <div className="logo">
@@ -21,7 +24,7 @@ const HeaderComponent = () =>{
            <li className="px-2"><Link to="/about">About</Link></li>
            <li className="px-2"><Link to="/contact">Contct Us</Link></li>
            <li className="px-2"><Link to="/grocery">Grocery</Link></li>
-           <li className="px-2"><img src={CART_URL} className="w-12"/></li>
+           <li className="px-2"><Link to="/cart"><img src={CART_URL} className="w-12"/>({cartItems.length} items)</Link></li>
            <li className="px-2"><button className="button" style={{cursor:"pointer"}} onClick={()=>{
             setBtnName(btnName ==="LogIn" ? "LogOut" : "LogIn")}}>{btnName}</button></li>
            <li className="px-2">{loggedInUser}</li>
