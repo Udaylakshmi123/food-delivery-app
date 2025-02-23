@@ -1,7 +1,7 @@
 import {CART_URL} from "../utils/constants";
 import LOGO_URL from "../utils/constants";
 import { useState, useContext } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/userContext";
 import { useSelector } from "react-redux";
@@ -22,7 +22,7 @@ const HeaderComponent = () =>{
         <li className="px-2">Online Status: {onlineStatus ? "✅": "🔴"}</li>
            <li className="px-2 fs-12"><Link to="/">Home</Link></li>
            <li className="px-2"><Link to="/about">About</Link></li>
-           <li className="px-2"><Link to="/contact">Contct Us</Link></li>
+           <li className="px-2"><Link to="/contact">Contact Us</Link></li>
            <li className="px-2"><Link to="/grocery">Grocery</Link></li>
            <li className="px-2"><Link to="/cart"><img src={CART_URL} className="w-12"/>({cartItems.length} items)</Link></li>
            <li className="px-2"><button className="button" style={{cursor:"pointer"}} onClick={()=>{

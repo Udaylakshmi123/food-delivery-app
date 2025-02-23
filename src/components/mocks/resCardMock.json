@@ -1,0 +1,58 @@
+ {
+        "info": {
+            "id": "32738",
+            "name": "Donne Biryani House",
+            "city": "1",
+            "slugs": {
+                "restaurant": "donne-biryani-house-malleshwaram-malleshwaram"
+            },
+            "cloudinaryImageId": "cgtfmodhd9gme13pblre",
+            "locality": "Malleshwaram",
+            "areaName": "Malleshwaram",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Biryani",
+                "South Indian"
+            ],
+            "avgRating": 4.3,
+            "feeDetails": {
+                "restaurantId": "32738",
+                "title": "Delivery Charge",
+                "amount": "0"
+            },
+            "totalRatingsString": "10K+",
+            "promoted": true,
+            "adTrackingId": "cid=25592885~p=0~adgrpid=25592885#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=32738~st=dindigul thalappakatti~eid=d6969592-977f-4949-9bd9-2272512a50bc~srvts=1740299785149~collid=56861",
+            "sla": {
+                "deliveryTime": 37,
+                "minDeliveryTime": 35,
+                "maxDeliveryTime": 40,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 MINS",
+                "lastMileTravelString": "5.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-02-23 23:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75",
+                "logoCtx": {
+                    "text": "BENEFITS"
+                }
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "3.9",
+                    "ratingCount": "2.2K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+            "campaignId": "25592885"
+        }
+    }

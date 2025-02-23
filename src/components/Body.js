@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import RestCard, { withPromotedLabel } from "./RestCard";
 import UserContext from "../utils/userContext";
 // body component

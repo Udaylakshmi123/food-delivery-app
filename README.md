@@ -29,3 +29,20 @@ Food Ordering app -> Jai's foods
 - Create a Slice(cart slice)
 - Dispatch an Action
 - Read the data through Selector
+
+# Types of testing(developer)
+- Unit testing
+- Integration testing
+- End to End testing - e2e testing
+
+# Setting up Testing in our app
+- Install React Testing library
+- Installed jest
+- Installed Babel dependency
+- Configure Babel
+- Configure Parcel config file to disable default babel transpilation
+- Jest configuration - npx jest --init
+- Install jsdom library
+- Install @babel/preset-react - to make JSX work in test cases
+- Install @babel/preset-react inside my babel config
+- Install @testing-library/jest-dom

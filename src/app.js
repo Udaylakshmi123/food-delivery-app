@@ -5,7 +5,7 @@ import SubComponent from './components/Body';
 import ContactComponent from './components/Contact';
 import ErrorComponent from './components/Error';
 import RestMenuComponent from './components/RestMenu';
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import UserContext from './utils/userContext.js';
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore.js';
@@ -71,4 +71,4 @@ const appRouter = createBrowserRouter([
   }  
 ])
 const root = ReactDOM.createRoot(document.querySelector('#root'));
-root.render(<RouterProvider router={appRouter} />);
+root.render(<RouterProvider router={appRouter} future={{v7_startTransition: true}}/>);
