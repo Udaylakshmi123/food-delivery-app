@@ -1,0 +1,2973 @@
+{
+    "statusCode": 0,
+    "data": {
+      "statusMessage": "done successfully",
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.Navigation",
+              "tab": [
+                {
+                  "id": "RESTAURANT",
+                  "title": "Restaurants",
+                  "selected": true,
+                  "analytics": {
+                    "screenName": "explore",
+                    "context": "{\"tid\":\"undefined\",\"query\":\"Dindigul Thalappakatti\"}",
+                    "objectValue": "RESTAURANT",
+                    "clickObjectName": "click-tab"
+                  },
+                  "selectedBgColor": "#1B1E24",
+                  "unselectedBgColor": "#FFFFFF",
+                  "selectedTextColor": "#BFFFFFFF",
+                  "unselectedTextColor": "#9902060C",
+                  "selectedBorderColor": "#1B1E24",
+                  "unselectedBorderColor": "#E2E2E7"
+                },
+                {
+                  "id": "DISH",
+                  "title": "Dishes",
+                  "analytics": {
+                    "screenName": "explore",
+                    "context": "{\"tid\":\"undefined\",\"query\":\"Dindigul Thalappakatti\"}",
+                    "objectValue": "DISH",
+                    "clickObjectName": "click-tab"
+                  },
+                  "selectedBgColor": "#1B1E24",
+                  "unselectedBgColor": "#FFFFFF",
+                  "selectedTextColor": "#BFFFFFFF",
+                  "unselectedTextColor": "#9902060C",
+                  "selectedBorderColor": "#1B1E24",
+                  "unselectedBorderColor": "#E2E2E7"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "groupedCard": {
+            "cardGroupMap": {
+              "RESTAURANT": {
+                "cards": [
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                          "id": "102334",
+                          "name": "Dindigul Thalappakatti",
+                          "city": "1",
+                          "slugs": {
+                            "restaurant": "dindigul-thalappakatti-ramashree-arcade-central-bangalore",
+                            "city": "bangalore"
+                          },
+                          "cloudinaryImageId": "ogidjgqgh5w4otvuiipj",
+                          "address": "MG Road",
+                          "locality": "Mg Road",
+                          "areaName": "Indiranagar",
+                          "costForTwo": "65000",
+                          "costForTwoMessage": "₹650 FOR TWO",
+                          "cuisines": [
+                            "Biryani",
+                            "Barbecue",
+                            "South Indian",
+                            "Chinese",
+                            "North Indian"
+                          ],
+                          "avgRating": 4.4,
+                          "feeDetails": {},
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "8.8K+",
+                          "sla": {
+                            "deliveryTime": 38,
+                            "minDeliveryTime": 35,
+                            "maxDeliveryTime": 40,
+                            "lastMileTravel": 3,
+                            "serviceability": "SERVICEABLE",
+                            "rainMode": "RAIN_MODE_NONE",
+                            "slaString": "35-40 MINS",
+                            "lastMileTravelString": "3.0 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "opened": true,
+                            "restaurantClosedMeta": {}
+                          },
+                          "badges": {},
+                          "aggregatedDiscountInfoV3": {
+                            "header": "ITEMS",
+                            "subHeader": "AT ₹179",
+                            "logoCtx": {
+                              "text": "BENEFITS"
+                            }
+                          },
+                          "ratingSlab": "RATING_SLAB_5",
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {},
+                            "commsStyling": {}
+                          },
+                          "cartOrderabilityNudgeBanner": {
+                            "parameters": {},
+                            "presentation": {}
+                          },
+                          "externalRatings": {
+                            "aggregatedRating": {
+                              "rating": "--"
+                            }
+                          },
+                          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                          "featuredSectionInfo": {}
+                        },
+                        "analytics": {
+                          "screenName": "explore",
+                          "context": "{\"tid\":\"undefined\",\"grid\":\"65e41e58-2a57-48ed-a78b-f2720cbaeab6\",\"queryUniqueId\":\"1443a16d-ca39-d3db-8d51-2ca5cbfe2a6b\",\"query\":\"Dindigul Thalappakatti\"}",
+                          "objectValue": "102334",
+                          "impressionObjectName": "impression-restaurant",
+                          "clickObjectName": "click-restaurant"
+                        },
+                        "ctaWithParams": {
+                          "link": "swiggy://menu",
+                          "type": "DEEPLINK",
+                          "params": {
+                            "query": "Dindigul Thalappakatti",
+                            "sourceSessionId": "j4bf10af-c0de-4ab7-8498-1bdccbb3760d",
+                            "source": "SEARCH",
+                            "isSld": "false",
+                            "sourceRequestId": "2f373a8428efca96aef7a6589504dd28",
+                            "restaurant_id": "102334"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantCollection",
+                        "title": "More results like this",
+                        "restaurants": [
+                          {
+                            "info": {
+                              "id": "32738",
+                              "name": "Donne Biryani House",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "donne-biryani-house-malleshwaram-malleshwaram"
+                              },
+                              "cloudinaryImageId": "cgtfmodhd9gme13pblre",
+                              "locality": "Malleshwaram",
+                              "areaName": "Malleshwaram",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "South Indian"
+                              ],
+                              "avgRating": 4.3,
+                              "feeDetails": {
+                                "restaurantId": "32738",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "10K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25592885~p=0~adgrpid=25592885#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=32738~st=dindigul thalappakatti~eid=8192db68-bc95-4d99-852b-49a8295f3c51~srvts=1740376157011~collid=56861",
+                              "sla": {
+                                "deliveryTime": 44,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "5.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "subHeader": "UPTO ₹75",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "2.2K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25592885"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "426393",
+                              "name": "Svss Biryani",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "sree-venkateshwara-foods-indiranagar-indiranagar"
+                              },
+                              "cloudinaryImageId": "yyhietqsdjm7cmlhoiwd",
+                              "locality": "Indiranagar",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹500 for two",
+                              "cuisines": [
+                                "Hyderabadi",
+                                "Andhra",
+                                "Continental"
+                              ],
+                              "avgRating": 4.4,
+                              "feeDetails": {
+                                "restaurantId": "426393",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "2.2K+",
+                              "sla": {
+                                "deliveryTime": 45,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "5.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 16:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {
+                                "textExtendedBadges": [
+                                  {
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available",
+                                    "fontColor": "#7E808C"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "1.1K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "18975",
+                              "name": "Nandhana Palace",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "nandhana-palace-rajajinagar-rajajinagar"
+                              },
+                              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/21/2c004550-3e2f-4929-a6b4-7f2599e9e2d9_18975.jpg",
+                              "locality": "Rajajinagar",
+                              "areaName": "Rajajinagar",
+                              "costForTwo": "₹500 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Andhra",
+                                "South Indian",
+                                "North Indian"
+                              ],
+                              "avgRating": 4.4,
+                              "feeDetails": {
+                                "restaurantId": "18975",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "47K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25592351~p=2~adgrpid=25592351#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=18975~st=dindigul thalappakatti~eid=b487bb42-9c47-48d9-b072-d9dfe10325a6~srvts=1740376157011~collid=56861",
+                              "sla": {
+                                "deliveryTime": 58,
+                                "minDeliveryTime": 55,
+                                "maxDeliveryTime": 60,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "55-60 MINS",
+                                "lastMileTravelString": "8.9 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-25 00:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {
+                                "imageBadges": [
+                                  {
+                                    "imageId": "Rxawards/_CATEGORY-Andhra.png",
+                                    "description": "Delivery!"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "8.0K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25592351"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "936227",
+                              "name": "TANJORE TIFFINS",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "tanjore-tiffins-indiranagar-indiranagar"
+                              },
+                              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/2/c1df9da7-3c48-427a-b894-56e50a920eda_936227.jpg",
+                              "locality": "Indiranagar",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹220 for two",
+                              "cuisines": [
+                                "Chettinad",
+                                "South Indian",
+                                "Beverages"
+                              ],
+                              "avgRating": 4.5,
+                              "feeDetails": {
+                                "restaurantId": "936227",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "517",
+                              "sla": {
+                                "deliveryTime": 44,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "6.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "130367",
+                              "name": "New Alameen Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "new-alameen-hotel-test-prod-area"
+                              },
+                              "cloudinaryImageId": "798b19819589967e88d9bb122bca439c",
+                              "locality": "Ulsoor",
+                              "areaName": "Central Bangalore",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Kerala",
+                                "briyani",
+                                "Kebabs",
+                                "Indian",
+                                "South Indian",
+                                "rolls"
+                              ],
+                              "avgRating": 4,
+                              "feeDetails": {
+                                "restaurantId": "130367",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "4.3K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25401144~p=3~adgrpid=25401144#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=130367~st=dindigul thalappakatti~eid=4adeed99-304b-4557-a110-96a77fc2181e~srvts=1740376157011~collid=56861",
+                              "sla": {
+                                "deliveryTime": 42,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "4.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {
+                                "textExtendedBadges": [
+                                  {
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available",
+                                    "fontColor": "#7E808C"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.1",
+                                  "ratingCount": "53"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25401144"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "718106",
+                              "name": "Suvaii- A Pandyan Legacy",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "suvaii-indiranagar-indiranagar-2"
+                              },
+                              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/05290256-23a1-4da2-807a-6bb7d38a4c7b_718106.jpg",
+                              "locality": "Indiranagar",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Chettinad",
+                                "South Indian",
+                                "Indian",
+                                "Tandoor",
+                                "briyani"
+                              ],
+                              "avgRating": 4.1,
+                              "feeDetails": {
+                                "restaurantId": "718106",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "1.0K+",
+                              "sla": {
+                                "deliveryTime": 56,
+                                "minDeliveryTime": 55,
+                                "maxDeliveryTime": 60,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "55-60 MINS",
+                                "lastMileTravelString": "6.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "3.5K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "50571",
+                              "name": "Taj Hotel",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "taj-hotel-shivajinagar-frazer-town"
+                              },
+                              "cloudinaryImageId": "wfol02cizu1pb7mq6oxr",
+                              "locality": "Shivaji Nagar",
+                              "areaName": "Shivaji Nagar",
+                              "costForTwo": "₹500 for two",
+                              "cuisines": [
+                                "Chinese",
+                                "Mughlai"
+                              ],
+                              "avgRating": 4.3,
+                              "feeDetails": {
+                                "restaurantId": "50571",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "5.8K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25593701~p=5~adgrpid=25593701#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=50571~st=dindigul thalappakatti~eid=0f7c1e60-5716-4921-8eec-f1a5efc75ee1~srvts=1740376157012~collid=56861",
+                              "sla": {
+                                "deliveryTime": 36,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-03-03 00:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "11K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25593701"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "958299",
+                              "name": "Navathanyam",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "navathanyam-indiranagar-indiranagar-2"
+                              },
+                              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/24/ec1f954c-b3f1-4098-a4f0-ffd78a621acc_958299.ss.jpg",
+                              "locality": "Indiranagar",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹250 for two",
+                              "cuisines": [
+                                "Chettinad",
+                                "South Indian"
+                              ],
+                              "avgRating": 4.2,
+                              "feeDetails": {
+                                "restaurantId": "958299",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "163",
+                              "sla": {
+                                "deliveryTime": 52,
+                                "minDeliveryTime": 50,
+                                "maxDeliveryTime": 55,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 MINS",
+                                "lastMileTravelString": "6.4 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {
+                                "imageBadges": [
+                                  {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "755849",
+                              "name": "Taj Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "taj-restaurant-basavanagudi-basavanagudi-2"
+                              },
+                              "cloudinaryImageId": "2e8b7c92ed62835cfebd1671d4d8c527",
+                              "locality": "Jayanagar",
+                              "areaName": "Basavanagudi",
+                              "costForTwo": "₹198 for two",
+                              "cuisines": [
+                                "Indian"
+                              ],
+                              "avgRating": 4.1,
+                              "feeDetails": {
+                                "restaurantId": "755849",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "33",
+                              "promoted": true,
+                              "adTrackingId": "cid=24699429~p=6~adgrpid=24699429#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=755849~st=dindigul thalappakatti~eid=2fbd136f-524c-4086-a1fd-0eac1a3fb91d~srvts=1740376157012~collid=56861",
+                              "sla": {
+                                "deliveryTime": 35,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "2.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "UPTO ₹40",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "24699429"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "3241",
+                              "name": "Meghana Foods",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "meghana-foods-central-bangalore"
+                              },
+                              "cloudinaryImageId": "e0vvulfbahjxjz6k4uwi",
+                              "locality": "Residency Road",
+                              "areaName": "Residency Road",
+                              "costForTwo": "₹500 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Andhra",
+                                "South Indian",
+                                "Chinese",
+                                "Seafood"
+                              ],
+                              "avgRating": 4.7,
+                              "feeDetails": {
+                                "restaurantId": "3241",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "82K+",
+                              "sla": {
+                                "deliveryTime": 34,
+                                "minDeliveryTime": 30,
+                                "maxDeliveryTime": 35,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "30-35 MINS",
+                                "lastMileTravelString": "2.4 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {
+                                "imageBadges": [
+                                  {
+                                    "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                                    "description": "Delivery!"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "21K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "224868",
+                              "name": "Ambur Dum Biriyani",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "ambur-dum-biriyani-indiranagar-indiranagar"
+                              },
+                              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/17/45298397-5071-44d6-9633-e0a4bf2220c0_224868 (1).jpg",
+                              "locality": "Binnamangala",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Indian",
+                                "Mughlai"
+                              ],
+                              "avgRating": 3.9,
+                              "feeDetails": {
+                                "restaurantId": "224868",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "4.5K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=24957192~p=11~adgrpid=24957192#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=224868~st=dindigul thalappakatti~eid=d68e0f10-fbf3-4746-973b-03522f3a583e~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 49,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "6.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-03-03 00:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "ITEMS",
+                                "subHeader": "AT ₹99",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "24957192"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "606918",
+                              "name": "Chickpet Donne Biryani House",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "chickpet-donne-biryani-house-jayanagar-jayanagar"
+                              },
+                              "cloudinaryImageId": "orlqk94usnkgjq7zoun8",
+                              "locality": "3rd Block",
+                              "areaName": "Jayanagar",
+                              "costForTwo": "₹250 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Kebabs",
+                                "South Indian"
+                              ],
+                              "avgRating": 4.1,
+                              "feeDetails": {
+                                "restaurantId": "606918",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "1.2K+",
+                              "sla": {
+                                "deliveryTime": 53,
+                                "minDeliveryTime": 50,
+                                "maxDeliveryTime": 55,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 MINS",
+                                "lastMileTravelString": "6.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "375141",
+                              "name": "Shrinidhi Military Hotel",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "shrinidhi-military-hotel-jayanagar-jayanagar"
+                              },
+                              "cloudinaryImageId": "ojabbl9emgneebnuo1in",
+                              "locality": "South End Road",
+                              "areaName": "Basavanagudi",
+                              "costForTwo": "₹299 for two",
+                              "cuisines": [
+                                "South Indian"
+                              ],
+                              "avgRating": 4,
+                              "feeDetails": {
+                                "restaurantId": "375141",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "1.7K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25560899~p=15~adgrpid=25560899#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=375141~st=dindigul thalappakatti~eid=269ac755-2d4e-40ac-8a9f-b00899892b65~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 37,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "4.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 22:45:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25560899"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "537139",
+                              "name": "Narmada Chain of Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "narmada-group-of-hotels-koramangala-koramangala"
+                              },
+                              "cloudinaryImageId": "gmcud4kfjsy2kf2bbrme",
+                              "locality": "Koramangala",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹500 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Andhra",
+                                "South Indian"
+                              ],
+                              "avgRating": 4.5,
+                              "feeDetails": {
+                                "restaurantId": "537139",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "10K+",
+                              "sla": {
+                                "deliveryTime": 47,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "6.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-25 02:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "2.0K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "210945",
+                              "name": "Royal Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "royal-restaurant-central-bangalore-central-bangalore"
+                              },
+                              "cloudinaryImageId": "yicweopn4lzcjlqy4jvq",
+                              "locality": "Shivaji Nagar",
+                              "areaName": "Central Bangalore",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Chinese",
+                                "North Indian",
+                                "Tandoor"
+                              ],
+                              "avgRating": 4.1,
+                              "feeDetails": {
+                                "restaurantId": "210945",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "11K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25592459~p=16~adgrpid=25592459#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=210945~st=dindigul thalappakatti~eid=5b91610b-8626-4751-bb21-c156dc29577a~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 40,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-03-03 00:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.6",
+                                  "ratingCount": "964"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25592459"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "41102",
+                              "name": "Hotel Empire",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "empire-restaurant-majestic-majestic"
+                              },
+                              "cloudinaryImageId": "l5sjr78yn3vhopcvqgfb",
+                              "locality": "Majestic",
+                              "areaName": "Majestic",
+                              "costForTwo": "₹450 for two",
+                              "cuisines": [
+                                "Kebabs",
+                                "Biryani"
+                              ],
+                              "avgRating": 4.3,
+                              "feeDetails": {
+                                "restaurantId": "41102",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "15K+",
+                              "sla": {
+                                "deliveryTime": 47,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "2.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-25 02:45:00",
+                                "opened": true
+                              },
+                              "badges": {
+                                "imageBadges": [
+                                  {
+                                    "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
+                                    "description": "Delivery!"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV3": {
+                                "header": "15% OFF",
+                                "subHeader": "ABOVE ₹3000",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "24K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "10212",
+                              "name": "Hotel Tom's Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "hotel-toms-restaurant-hosur-main-road-central-bangalore"
+                              },
+                              "cloudinaryImageId": "s4khfhdh0h06d9kjeilr",
+                              "locality": "Brigade Road",
+                              "areaName": "Central Bangalore",
+                              "costForTwo": "₹400 for two",
+                              "cuisines": [
+                                "Mangalorean",
+                                "Biryani",
+                                "Seafood",
+                                "Chinese",
+                                "North Indian",
+                                "Desserts",
+                                "South Indian"
+                              ],
+                              "avgRating": 4.6,
+                              "feeDetails": {
+                                "restaurantId": "10212",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "33K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25592341~p=19~adgrpid=25592341#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=10212~st=dindigul thalappakatti~eid=e59f5f74-8520-4f09-a2c2-99a013ef2429~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 41,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "2.3 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "1.9K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25592341"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "31627",
+                              "name": "Hyderabad Biryaani House",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "hyderabad-biryaani-house-koramangala-koramangala"
+                              },
+                              "cloudinaryImageId": "r87wnsjxzu9ysekmniju",
+                              "locality": "7th Block",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹350 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "North Indian",
+                                "Chinese",
+                                "Tandoor"
+                              ],
+                              "avgRating": 4.1,
+                              "feeDetails": {
+                                "restaurantId": "31627",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "31K+",
+                              "sla": {
+                                "deliveryTime": 53,
+                                "minDeliveryTime": 50,
+                                "maxDeliveryTime": 55,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 MINS",
+                                "lastMileTravelString": "6.3 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "ABOVE ₹800",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "3.1K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "224982",
+                              "name": "Oru Vadakkan Cafe",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "oru-vadakkan-cafe-koramangala-koramangala"
+                              },
+                              "cloudinaryImageId": "mfyjcr4b3ntto55lslpp",
+                              "locality": "Koramangala",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹400 for two",
+                              "cuisines": [
+                                "Kerala",
+                                "Biryani",
+                                "South Indian",
+                                "Chinese",
+                                "Seafood",
+                                "Beverages"
+                              ],
+                              "avgRating": 4.3,
+                              "feeDetails": {
+                                "restaurantId": "224982",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "12K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25592463~p=25~adgrpid=25592463#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=224982~st=dindigul thalappakatti~eid=f852ced8-2775-4404-a700-50cb08d41185~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 53,
+                                "minDeliveryTime": 50,
+                                "maxDeliveryTime": 55,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 MINS",
+                                "lastMileTravelString": "6.7 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {
+                                "textExtendedBadges": [
+                                  {
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available",
+                                    "fontColor": "#7E808C"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV3": {
+                                "header": "₹150 OFF",
+                                "subHeader": "ABOVE ₹399",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "331"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25592463"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "41099",
+                              "name": "Nagarjuna - Since 1984",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "nagarjuna-koramangala-5th-block-koramangala"
+                              },
+                              "cloudinaryImageId": "q6iscdoqvjbsmugvo4tn",
+                              "locality": "Koramangala",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹600 for two",
+                              "cuisines": [
+                                "Andhra",
+                                "South Indian",
+                                "Biryani",
+                                "Beverages",
+                                "Desserts"
+                              ],
+                              "avgRating": 4.5,
+                              "feeDetails": {
+                                "restaurantId": "41099",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "32K+",
+                              "sla": {
+                                "deliveryTime": 50,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "7.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {
+                                "imageBadges": [
+                                  {
+                                    "imageId": "Rxawards/_CATEGORY-Andhra.png",
+                                    "description": "Delivery!"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "15K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "435046",
+                              "name": "Kaippunnyam Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "kaippunnyam-restaurant-central-bangalore-central-bangalore"
+                              },
+                              "cloudinaryImageId": "xtdfcswzs3brb8mozzla",
+                              "locality": "Brigade Road",
+                              "areaName": "Central Bangalore",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Kerala",
+                                "Seafood",
+                                "South Indian",
+                                "Buffalo meat",
+                                "Chettinad"
+                              ],
+                              "avgRating": 4.3,
+                              "feeDetails": {
+                                "restaurantId": "435046",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "1.4K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25593033~p=26~adgrpid=25593033#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=435046~st=dindigul thalappakatti~eid=72ae4fbc-54d5-4a69-85bc-33b575ae0f53~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 41,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "2.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 22:40:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25593033"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "196047",
+                              "name": "New Taj Darbar",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "new-taj-darbar-central-bangalore-central-bangalore"
+                              },
+                              "cloudinaryImageId": "nfieyqgxk1omknxfbluj",
+                              "locality": "Saint Mary's Church Road",
+                              "areaName": "Shivajinagar",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Indian",
+                                "Chinese",
+                                "Tandoor",
+                                "Seafood"
+                              ],
+                              "avgRating": 3.6,
+                              "feeDetails": {
+                                "restaurantId": "196047",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "15K+",
+                              "sla": {
+                                "deliveryTime": 42,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-03-03 00:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "₹100 OFF",
+                                "subHeader": "ABOVE ₹499",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "80517",
+                              "name": "Savoury Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "savoury-restaurant-frazer-town-frazer-town"
+                              },
+                              "cloudinaryImageId": "6b38d5679a48a299242c364df3975f2f",
+                              "locality": "Frazer Town",
+                              "areaName": "Central Bangalore",
+                              "costForTwo": "₹450 for two",
+                              "cuisines": [
+                                "Arabian",
+                                "Indian",
+                                "Chinese",
+                                "Tandoor",
+                                "Biryani",
+                                "Seafood",
+                                "Kerala"
+                              ],
+                              "avgRating": 4.5,
+                              "feeDetails": {
+                                "restaurantId": "80517",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "22K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25593547~p=28~adgrpid=25593547#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=80517~st=dindigul thalappakatti~eid=8320adcc-6493-4248-ac56-b3ee52c2250a~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 45,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "5.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "13K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25593547"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "757706",
+                              "name": "Malgudi Mylari Mane",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "malgudi-mylari-mane-koramangala-koramangala"
+                              },
+                              "cloudinaryImageId": "dfbcb631d0779d17ed1b489eb1165a0a",
+                              "locality": "KHB Colony",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹250 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "South Indian",
+                                "Seafood",
+                                "Meat"
+                              ],
+                              "avgRating": 4.5,
+                              "feeDetails": {
+                                "restaurantId": "757706",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "2.1K+",
+                              "sla": {
+                                "deliveryTime": 47,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "6.4 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:30:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "ITEMS",
+                                "subHeader": "AT ₹199",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "422863",
+                              "name": "Jose Mess",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "jose-mess-btm-btm-2"
+                              },
+                              "cloudinaryImageId": "lltunkievzpxrrcarfmy",
+                              "locality": "BTM Layout",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹150 for two",
+                              "cuisines": [
+                                "South Indian"
+                              ],
+                              "avgRating": 4.4,
+                              "feeDetails": {
+                                "restaurantId": "422863",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "11K+",
+                              "promoted": true,
+                              "adTrackingId": "cid=25593030~p=29~adgrpid=25593030#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=422863~st=dindigul thalappakatti~eid=6cdb0e42-3bd2-43d0-aa42-e80106a49a5c~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 47,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "6.7 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 22:45:00",
+                                "opened": true
+                              },
+                              "badges": {
+                                "textExtendedBadges": [
+                                  {
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available",
+                                    "fontColor": "#7E808C"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "subHeader": "UPTO ₹75",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "1.2K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25593030"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "41105",
+                              "name": "Nandhini Deluxe",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "nandhini-deluxe-basavanagudi-basavanagudi"
+                              },
+                              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/3/c70fe58c-9c46-442d-8787-00c68f765b26_41105.jpg",
+                              "locality": "Kadubisanahalli",
+                              "areaName": "Basavanagudi",
+                              "costForTwo": "₹550 for two",
+                              "cuisines": [
+                                "Andhra",
+                                "Chinese"
+                              ],
+                              "avgRating": 4.3,
+                              "feeDetails": {
+                                "restaurantId": "41105",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "14K+",
+                              "sla": {
+                                "deliveryTime": 39,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "2.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "subHeader": "UPTO ₹75",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "2.2K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "393616",
+                              "name": "Abees Mess",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "abees-mess-btm-btm"
+                              },
+                              "cloudinaryImageId": "drdiescgwngubq9y6vdp",
+                              "locality": "BTM Layout",
+                              "areaName": "BTM Layout",
+                              "costForTwo": "₹150 for two",
+                              "cuisines": [
+                                "South Indian",
+                                "Biryani",
+                                "Chinese"
+                              ],
+                              "avgRating": 4.4,
+                              "feeDetails": {
+                                "restaurantId": "393616",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "644",
+                              "promoted": true,
+                              "adTrackingId": "cid=25593019~p=30~adgrpid=25593019#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=393616~st=dindigul thalappakatti~eid=ea21739c-387c-4cb4-a5ad-2f53973b0704~srvts=1740376157013~collid=56861",
+                              "sla": {
+                                "deliveryTime": 44,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "7.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 22:30:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "1.6K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                              "campaignId": "25593019"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "813616",
+                              "name": "Meghana Biryani",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "meghana-biryani-btm-btm"
+                              },
+                              "cloudinaryImageId": "f594f4f63d3e00e93203f02d40e38d24",
+                              "locality": "Tasty Darbar",
+                              "areaName": "BTM",
+                              "costForTwo": "₹400 for two",
+                              "cuisines": [
+                                "Chinese",
+                                "Andhra",
+                                "Biryani"
+                              ],
+                              "avgRating": 3.2,
+                              "feeDetails": {
+                                "restaurantId": "813616",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "1.2K+",
+                              "sla": {
+                                "deliveryTime": 56,
+                                "minDeliveryTime": 55,
+                                "maxDeliveryTime": 60,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "55-60 MINS",
+                                "lastMileTravelString": "7.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "UPTO ₹40",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "748103",
+                              "name": "Thenga Manga by Chef Pillai",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "thenga-manga-central-bangalore-central-bangalore"
+                              },
+                              "cloudinaryImageId": "2d77b522e8d5845b1f4a72fa68bb5d18",
+                              "locality": "Brigade Road",
+                              "areaName": "Central Bangalore",
+                              "costForTwo": "₹500 for two",
+                              "cuisines": [
+                                "Chinese",
+                                "Biryani"
+                              ],
+                              "avgRating": 4.1,
+                              "feeDetails": {
+                                "restaurantId": "748103",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "665",
+                              "sla": {
+                                "deliveryTime": 37,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "2.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.1",
+                                  "ratingCount": "116"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "936696",
+                              "name": "Salwaa Kitchen",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "salwaa-kitchen-vijayanagar-vijayanagar-2"
+                              },
+                              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/3/2bac1f95-b2fb-48fa-8c8a-6f64ba648ba1_936696.JPG",
+                              "locality": " HOSAHALLI ",
+                              "areaName": "Vijayanagar",
+                              "costForTwo": "₹500 for two",
+                              "cuisines": [
+                                "Chinese",
+                                "Biryani",
+                                "Kebabs"
+                              ],
+                              "avgRating": 4.2,
+                              "feeDetails": {
+                                "restaurantId": "936696",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "11",
+                              "sla": {
+                                "deliveryTime": 46,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "5.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "69997",
+                              "name": "SLV Corner Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "slv-corner-restaurant-basavanagudi-basavanagudi"
+                              },
+                              "cloudinaryImageId": "vpp0p2bjtxr3qnis6zug",
+                              "locality": "Basavanagudi",
+                              "areaName": "Basavanagudi",
+                              "costForTwo": "₹450 for two",
+                              "cuisines": [
+                                "Chinese",
+                                "South Indian",
+                                "Desserts"
+                              ],
+                              "avgRating": 4.7,
+                              "feeDetails": {
+                                "restaurantId": "69997",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "17K+",
+                              "sla": {
+                                "deliveryTime": 43,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "6.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 22:30:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {
+                                "imageBadges": [
+                                  {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "15K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "772840",
+                              "name": "Nammura Nati Ruchi",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "nammura-nati-ruchi-koramangala-koramangala"
+                              },
+                              "cloudinaryImageId": "f435fb738e01d648ff96c2746044f2ef",
+                              "locality": "BBMP South",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹299 for two",
+                              "cuisines": [
+                                "North Indian",
+                                "Biryani",
+                                "South Indian"
+                              ],
+                              "avgRating": 4,
+                              "feeDetails": {
+                                "restaurantId": "772840",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "9",
+                              "sla": {
+                                "deliveryTime": 55,
+                                "minDeliveryTime": 55,
+                                "maxDeliveryTime": 60,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "55-60 MINS",
+                                "lastMileTravelString": "6.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:25:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "UPTO ₹40",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "16498",
+                              "name": "Chickpet Donne Biriyani House",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "food-zone-rajajinagar-rajajinagar"
+                              },
+                              "cloudinaryImageId": "fteu5ifwzbid3fkyfcpi",
+                              "locality": "Rajajinagar",
+                              "areaName": "Rajajinagar",
+                              "costForTwo": "₹350 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Kebabs",
+                                "Chinese"
+                              ],
+                              "avgRating": 3.9,
+                              "feeDetails": {
+                                "restaurantId": "16498",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "5.4K+",
+                              "sla": {
+                                "deliveryTime": 43,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "6.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:30:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "918"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "121603",
+                              "name": "Kannur Food Point",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "kannur-food-point-btm"
+                              },
+                              "cloudinaryImageId": "bmwn4n4bn6n1tcpc8x2h",
+                              "locality": "BTM Layout",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Kerala",
+                                "Chinese"
+                              ],
+                              "avgRating": 4.2,
+                              "feeDetails": {
+                                "restaurantId": "121603",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "64K+",
+                              "sla": {
+                                "deliveryTime": 47,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "7.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-25 02:30:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {
+                                "textExtendedBadges": [
+                                  {
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available",
+                                    "fontColor": "#7E808C"
+                                  }
+                                ]
+                              },
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "709394",
+                              "name": "Foyer",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "foyer-frazer-town-frazer-town"
+                              },
+                              "cloudinaryImageId": "2719aa9d5cc8f959961569cbd30a34b3",
+                              "locality": "Frazer Town",
+                              "areaName": "Frazer Town",
+                              "costForTwo": "₹450 for two",
+                              "cuisines": [
+                                "Indian",
+                                "South Indian",
+                                "Chinese",
+                                "Fast Food",
+                                "Pastas",
+                                "Pizzas",
+                                "Burgers",
+                                "Desserts",
+                                "Beverages"
+                              ],
+                              "avgRating": 4.4,
+                              "feeDetails": {
+                                "restaurantId": "709394",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "96",
+                              "sla": {
+                                "deliveryTime": 46,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "6.4 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "UPTO ₹40",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "141"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "608",
+                              "name": "Kerala Pavilion",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "kerala-pavilion-domlur-layout-indiranagar"
+                              },
+                              "cloudinaryImageId": "eeef1r7vqi0ptcwafu13",
+                              "locality": "Domlur",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Kerala",
+                                "Seafood"
+                              ],
+                              "avgRating": 4.2,
+                              "feeDetails": {
+                                "restaurantId": "608",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "37K+",
+                              "sla": {
+                                "deliveryTime": 42,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "5.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 22:30:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "3.5K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "107119",
+                              "name": "Shahi Family Restaurant",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "shahi-family-restaurant-ulsoor"
+                              },
+                              "cloudinaryImageId": "egsq5g5debmsqhclhy4x",
+                              "locality": "Swamy Vivekananda",
+                              "areaName": "Ulsoor",
+                              "costForTwo": "₹299 for two",
+                              "cuisines": [
+                                "Kerala",
+                                "Biryani",
+                                "Kebabs",
+                                "Indian",
+                                "South Indian",
+                                "rolls"
+                              ],
+                              "avgRating": 3.6,
+                              "feeDetails": {
+                                "restaurantId": "107119",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "2.0K+",
+                              "sla": {
+                                "deliveryTime": 47,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "4.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "709386",
+                              "name": "Sana Kitchen",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "sana-kitchen-rajajinagar-rajajinagar"
+                              },
+                              "cloudinaryImageId": "f594f4f63d3e00e93203f02d40e38d24",
+                              "locality": "Prakash Nagar",
+                              "areaName": "Rajajinagar",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Chinese",
+                                "Kebabs"
+                              ],
+                              "avgRating": 3.4,
+                              "feeDetails": {
+                                "restaurantId": "709386",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "217",
+                              "sla": {
+                                "deliveryTime": 50,
+                                "minDeliveryTime": 50,
+                                "maxDeliveryTime": 55,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 MINS",
+                                "lastMileTravelString": "6.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "467877",
+                              "name": "New metro hotel",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "new-metro-hotel-basavanagudi-basavanagudi"
+                              },
+                              "cloudinaryImageId": "sd1fijfg405tsz69cunw",
+                              "locality": "J C Road",
+                              "areaName": "J C Road",
+                              "costForTwo": "₹250 for two",
+                              "cuisines": [
+                                "North Indian",
+                                "Biryani"
+                              ],
+                              "avgRating": 4,
+                              "feeDetails": {
+                                "restaurantId": "467877",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "120",
+                              "sla": {
+                                "deliveryTime": 29,
+                                "minDeliveryTime": 25,
+                                "maxDeliveryTime": 30,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25-30 MINS",
+                                "lastMileTravelString": "2.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 21:00:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "553423",
+                              "name": "Dawat Durbar",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "dawat-durbar-central-bangalore-central-bangalore"
+                              },
+                              "cloudinaryImageId": "tdbzbukrx1eo7ed8cyhr",
+                              "locality": "HKP Road",
+                              "areaName": "Shivajinagar",
+                              "costForTwo": "₹200 for two",
+                              "cuisines": [
+                                "North Indian",
+                                "Chinese",
+                                "Mughlai"
+                              ],
+                              "avgRating": 4.7,
+                              "feeDetails": {
+                                "restaurantId": "553423",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "54",
+                              "sla": {
+                                "deliveryTime": 45,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-03-03 00:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "720486",
+                              "name": "A N Foods",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "a-n-foods-basaveshwaranagar-basaveshwaranagar"
+                              },
+                              "cloudinaryImageId": "ba8e5491e60807af8c62dad36b5a25ed",
+                              "locality": "Prakash Nagar",
+                              "areaName": "Rajajinagar",
+                              "costForTwo": "₹500 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Chinese",
+                                "North Indian"
+                              ],
+                              "avgRating": 3.7,
+                              "feeDetails": {
+                                "restaurantId": "720486",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "57",
+                              "sla": {
+                                "deliveryTime": 51,
+                                "minDeliveryTime": 50,
+                                "maxDeliveryTime": 55,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 MINS",
+                                "lastMileTravelString": "6.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "724075",
+                              "name": "Rajajinagar Biryani Hub",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "rajajinagar-biryani-hub-basaveshwaranagar-basaveshwaranagar"
+                              },
+                              "cloudinaryImageId": "ec22ec453eaa9f54fb97af5d25898f77",
+                              "locality": "Rajajinagar",
+                              "areaName": "Rajajinagar",
+                              "costForTwo": "₹300 for two",
+                              "cuisines": [
+                                "Biryani",
+                                "Chinese"
+                              ],
+                              "avgRating": 3.3,
+                              "feeDetails": {
+                                "restaurantId": "724075",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "104",
+                              "sla": {
+                                "deliveryTime": 41,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "6.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "aggregatedDiscountInfo": {},
+                              "badges": {},
+                              "aggregatedDiscountInfoV2": {},
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "135408",
+                              "name": "Banashankari Donne Biriyani",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "banashankari-donne-biriyani-banashankari-banashankari-2"
+                              },
+                              "cloudinaryImageId": "yzcuq5s3rrgnhx0bgb5l",
+                              "locality": "Hanumanthnagar",
+                              "areaName": "Banashankari",
+                              "costForTwo": "₹150 for two",
+                              "cuisines": [
+                                "Indian"
+                              ],
+                              "avgRating": 4.4,
+                              "feeDetails": {
+                                "restaurantId": "135408",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "1.7K+",
+                              "sla": {
+                                "deliveryTime": 42,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "5.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "685094",
+                              "name": "Chillies",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "chillies-koramangala-koramangala"
+                              },
+                              "cloudinaryImageId": "f547a62fa2ef3a2b982539d5c62c68ca",
+                              "locality": "KHB Colony",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹400 for two",
+                              "cuisines": [
+                                "South Indian",
+                                "Snacks",
+                                "Beverages"
+                              ],
+                              "avgRating": 4.3,
+                              "feeDetails": {
+                                "restaurantId": "685094",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "869",
+                              "sla": {
+                                "deliveryTime": 55,
+                                "minDeliveryTime": 55,
+                                "maxDeliveryTime": 60,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "55-60 MINS",
+                                "lastMileTravelString": "6.7 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:59:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "ITEMS",
+                                "subHeader": "AT ₹140",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "758393",
+                              "name": "Giri Gowdru Naati Style",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "giri-gowdru-naati-style-koramangala-koramangala"
+                              },
+                              "cloudinaryImageId": "313774ada0dc4f878df143b7d7a095f0",
+                              "locality": "Chinnayanpalya",
+                              "areaName": "Koramangala",
+                              "costForTwo": "₹249 for two",
+                              "cuisines": [
+                                "North Indian",
+                                "Chinese",
+                                "Biryani",
+                                "South Indian"
+                              ],
+                              "avgRating": 3,
+                              "feeDetails": {
+                                "restaurantId": "758393",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "9",
+                              "sla": {
+                                "deliveryTime": 45,
+                                "minDeliveryTime": 45,
+                                "maxDeliveryTime": 50,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 MINS",
+                                "lastMileTravelString": "4.3 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 23:45:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "UPTO ₹40",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "275137",
+                              "name": "A Naidu's Ootada Mane",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "a-naidu's-ootada-mane-indiranagar-indiranagar"
+                              },
+                              "cloudinaryImageId": "phuqrayj9zfvwppjrbos",
+                              "locality": "Binnamangala",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹250 for two",
+                              "cuisines": [
+                                "Indian"
+                              ],
+                              "avgRating": 3.5,
+                              "feeDetails": {
+                                "restaurantId": "275137",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "576",
+                              "sla": {
+                                "deliveryTime": 52,
+                                "minDeliveryTime": 50,
+                                "maxDeliveryTime": 55,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 MINS",
+                                "lastMileTravelString": "6.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-24 22:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "UPTO ₹40",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "115730",
+                              "name": "Biryani Khazana",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "biryani-khazana-bengaluru-karnataka-indiranagar"
+                              },
+                              "cloudinaryImageId": "oupd4meraf2luhhkwvt1",
+                              "locality": "1st Stage",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹250 for two",
+                              "cuisines": [
+                                "Biryani"
+                              ],
+                              "avgRating": 3.9,
+                              "feeDetails": {
+                                "restaurantId": "115730",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "1.4K+",
+                              "sla": {
+                                "deliveryTime": 53,
+                                "minDeliveryTime": 50,
+                                "maxDeliveryTime": 55,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 MINS",
+                                "lastMileTravelString": "6.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-03-03 00:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "subHeader": "UPTO ₹75",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "258360",
+                              "name": "Jai Bhavani Dhaba",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "jai-bhavani-dhaba-indiranagar-indiranagar"
+                              },
+                              "cloudinaryImageId": "dupjvdymduvbpqmo5fp8",
+                              "locality": "Hal 2dd Stage",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹250 for two",
+                              "cuisines": [
+                                "Indian"
+                              ],
+                              "avgRating": 3.9,
+                              "feeDetails": {
+                                "restaurantId": "258360",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "1.1K+",
+                              "sla": {
+                                "deliveryTime": 62,
+                                "minDeliveryTime": 60,
+                                "maxDeliveryTime": 65,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "60-65 MINS",
+                                "lastMileTravelString": "7.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-02-25 01:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          },
+                          {
+                            "info": {
+                              "id": "151430",
+                              "name": "Midnight Pizza And Food",
+                              "city": "1",
+                              "slugs": {
+                                "restaurant": "midnight-pizza-and-food-na-indiranagar"
+                              },
+                              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/16/dab4800b-aad2-4e91-89c3-b0003ae17f58_151430 (1).jpg",
+                              "locality": "1st Stage",
+                              "areaName": "Indiranagar",
+                              "costForTwo": "₹200 for two",
+                              "cuisines": [
+                                "Pizzas",
+                                "Chinese"
+                              ],
+                              "avgRating": 3.6,
+                              "feeDetails": {
+                                "restaurantId": "151430",
+                                "title": "Delivery Charge",
+                                "amount": "0"
+                              },
+                              "totalRatingsString": "516",
+                              "sla": {
+                                "deliveryTime": 56,
+                                "minDeliveryTime": 55,
+                                "maxDeliveryTime": 60,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "55-60 MINS",
+                                "lastMileTravelString": "6.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                              },
+                              "availability": {
+                                "nextCloseTime": "2025-03-03 00:00:00",
+                                "opened": true
+                              },
+                              "badges": {},
+                              "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "subHeader": "UPTO ₹75",
+                                "logoCtx": {
+                                  "text": "BENEFITS"
+                                }
+                              },
+                              "externalRatings": {
+                                "aggregatedRating": {
+                                  "rating": "--"
+                                }
+                              },
+                              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                            },
+                            "analytics": {},
+                            "cta": {}
+                          }
+                        ],
+                        "cta": {},
+                        "id": "56861",
+                        "theme": "SEARCH_SIMILAR_RESTAURANTS"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true
+    },
+    "tid": "e8aafd1c-3703-41cd-a272-e61679dbe484",
+    "sid": "j4bf10af-c0de-4ab7-8498-1bdccbb3760d",
+    "deviceId": "867c86b3-b202-95ea-0b89-48d5b992f48b",
+    "csrfToken": "7xCPbb1rzTxi-Bi37m8oZTLtMInc4IYBIZRg8iRE"
+  }

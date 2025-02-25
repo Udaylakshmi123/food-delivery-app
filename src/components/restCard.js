@@ -5,7 +5,7 @@ const RestCard =(props) =>{
     const contData = useContext(UserContext);
     const {cloudinaryImageId,name,cuisines,avgRating,costForTwo, sla:{deliveryTime:deliveryTime} } = props?.restDetails?.info;
     return (
-        <div className="m-4 p-4 w-[220px] rounded-lg bg-gray-50 hover:bg-gray-400">
+        <div className="m-4 p-4 w-[220px] rounded-lg bg-gray-50 hover:bg-gray-400" data-testid="resCard">
            <img className="rounded-lg" src={CDN_LINKS + cloudinaryImageId} />
            <h4 className="font-bold py-4 text-lg">{name}</h4>
            <p>{cuisines.join(", ")}</p>

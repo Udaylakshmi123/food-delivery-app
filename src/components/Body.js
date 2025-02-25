@@ -34,7 +34,7 @@ const SubComponent = () => {
       <div className="filter flex">
         <div className="px-6">
           <input
-            type="text"
+            type="text" data-testid="searchInput"
             className="border border-solid border-black rounded p-1"
             placeholder="Search Resturants"
             value={searchTxt}
@@ -54,10 +54,9 @@ const SubComponent = () => {
           <button
             className="px-4 py-2 bg-gray-100 rounded-lg"
             onClick={() => {
-              filteredOfResturants = listOfResturants.filter(
+              setFilteredOfResturants(listOfResturants.filter(
                 (val) => val.info.avgRating > 4.3
-              );
-              setFilteredOfResturants(filteredOfResturants);
+              ));
             }}
           >
             Top Rated Restaurants

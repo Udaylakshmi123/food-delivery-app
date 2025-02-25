@@ -2,7 +2,6 @@ import { useDispatch } from "react-redux";
 import { CDN_LINKS } from "../utils/constants";
 import { addItem } from "../utils/cartSlice";
 const CategoryListItem = ({ items }) => {
-  console.log(items)
   const dispatch = useDispatch();
   const handleAddItem = (item) =>{
     // Dispatch an Action
@@ -12,7 +11,7 @@ const CategoryListItem = ({ items }) => {
     <div>
       {
       items.map((item) => (
-        <div key={item.card.info.id}
+        <div key={item.card.info.id} data-testid="fooditems"
           className="border-b-2 p-2 m-2 border-gray-200 flex justify-between">
           <div className="text-left w-9/12">
             <h2 className="font-bold py-2">{item.card.info.name}</h2>
